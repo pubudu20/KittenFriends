@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 import CardList from './CardList';
 import {robots} from './robots';
 import SearchBox from './SearchBox';
+import './App.css'
+
+
+
+
 
 const App = () => {
     return(
-        <div>
+        <div className='tc'>
             
-        <h1>RoboFriends</h1>
+        <h1 className='f1'>KittyFriends</h1>
         <SearchBox/>
         <CardList robots ={robots}/>
         </div>
